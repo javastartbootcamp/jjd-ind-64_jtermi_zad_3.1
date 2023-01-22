@@ -18,4 +18,5 @@ public class Monitor {
         System.out.println("Wielkość matrycy w calach: " + sizeInches);
         System.out.println("Częstotliwość odświeżania: " + refreshRate + "\n");
     }
+
 }
