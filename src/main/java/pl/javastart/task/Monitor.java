@@ -6,13 +6,16 @@ public class Monitor {
     int sizeInches;
     int refreshRate;
 
-    public Monitor(String producer, int sizeInches, int refreshRate) {
+    Monitor () {
+            }
+
+    Monitor(String producer, int sizeInches, int refreshRate) {
         this.producer = producer;
         this.sizeInches = sizeInches;
         this.refreshRate = refreshRate;
     }
 
-    public void printOut() {
+    void printOut() {
         System.out.println("Dane monitora");
         System.out.println("Producent: " + producer);
         System.out.println("Wielkość matrycy w calach: " + sizeInches);
