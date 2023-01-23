@@ -6,7 +6,7 @@ public class Monitor {
     int sizeInches;
     int refreshRate;
 
-    Monitor () {
+    Monitor() {
             }
 
     Monitor(String producer, int sizeInches, int refreshRate) {
